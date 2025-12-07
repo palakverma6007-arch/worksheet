@@ -1,0 +1,104 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Palak</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#hero">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <h1 class="hero-title">Hi, I'm Palak Verma</h1>
+        <p class="hero-sub">A front-end developer who builds clean & responsive websites.</p>
+        <a class="cta" href="#projects">View Projects</a>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid" role="list">
+          <div class="skill" role="listitem">HTML</div>
+          <div class="skill" role="listitem">CSS</div>
+          <div class="skill" role="listitem">JavaScript</div>
+          <div class="skill" role="listitem">React</div>
+          <div class="skill" role="listitem">Responsive Design</div>
+          <div class="skill" role="listitem">Git</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb">Img</div>
+            <h3 class="project-title">Project One</h3>
+            <p class="project-desc">A short description of project one — tech used and purpose.</p>
+            <a class="project-link" href="#" target="_blank" rel="noopener">Live</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">Img</div>
+            <h3 class="project-title">Project Two</h3>
+            <p class="project-desc">A short description of project two — tech used and purpose.</p>
+            <a class="project-link" href="#" target="_blank" rel="noopener">Live</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">Img</div>
+            <h3 class="project-title">Project Three</h3>
+            <p class="project-desc">A short description of project three — tech used and purpose.</p>
+            <a class="project-link" href="#" target="_blank" rel="noopener">Live</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <div class="contact">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:palakverma6007@gmail.com">palakverma6007@gmail.com</a></p>
+        <p>Location: Ghaziabad, India
+        </p>
+      </div>
+      <div class="social">
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-note">© <span id="year"></span> Palak Verma</div>
+  </footer>
+
+  <script>
+    // small enhancement: set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
