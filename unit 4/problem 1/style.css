@@ -1,0 +1,11 @@
+.intro {
+      color: green;
+    }
+
+    #container {
+      background-color: lightgray;
+    }
+
+    .card p {
+      color: darkgray;
+    }
