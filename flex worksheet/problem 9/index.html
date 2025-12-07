@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexbox Boss Challenge</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    .layout {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    header {
+      background: #4f46e5;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    .middle {
+      display: flex;
+      flex: 1;
+    }
+    .sidebar {
+      width: 200px;
+      background: #e5e7eb;
+      padding: 20px;
+      font-size: 1.1rem;
+    }
+    .main {
+      flex: 1;
+      background: #f3f4f6;
+      padding: 20px;
+      font-size: 1.1rem;
+    }
+    footer {
+      background: #4b5563;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="layout">
+  <header>Header</header>
+
+  <div class="middle">
+    <div class="sidebar">Sidebar</div>
+    <div class="main">Main Content</div>
+  </div>
+
+  <footer>Footer</footer>
+</div>
+
+</body>
+</html>
