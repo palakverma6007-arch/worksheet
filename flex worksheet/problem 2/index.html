@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flex Direction Demo</title>
+  <style>
+    .box {
+      width: 40px;
+      height: 40px;
+      background: lightblue;
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #000;
+      font-size: 18px;
+    }
+
+    .container {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 40px;
+      border: 2px solid #333;
+      padding: 10px;
+      width: fit-content;
+    }
+
+    .row { flex-direction: row; }
+    .row-reverse { flex-direction: row-reverse; }
+    .column { flex-direction: column; }
+    .column-reverse { flex-direction: column-reverse; }
+  </style>
+</head>
+<body>
+
+  <h2>row</h2>
+  <div class="container row">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+
+  <h2>row-reverse</h2>
+  <div class="container row-reverse">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+
+  <h2>column</h2>
+  <div class="container column">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+
+  <h2>column-reverse</h2>
+  <div class="container column-reverse">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+
+</body>
+</html>
