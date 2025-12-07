@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Level 4 - Vertical Alignment (align-items)</title>
+  <style>
+    .demo-title {
+      font-family: Arial;
+      margin: 20px 0 5px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      height: 200px;
+      background: #eef1f6;
+      gap: 10px;
+      padding: 10px;
+      border: 2px solid #ccc;
+      margin-bottom: 30px;
+    }
+
+    .box {
+      width: 60px;
+      background: #6c5ce7;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      border-radius: 6px;
+      font-family: Arial;
+    }
+
+    .big-text {
+      font-size: 28px;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="font-family:Arial;">LEVEL 4 – Vertical Alignment (align-items)</h2>
+<p style="font-family:Arial;">Cross-axis is vertical because the direction is row.</p>
+
+
+<div class="demo-title">align-items: flex-start (items stick to top)</div>
+<div class="container" style="align-items: flex-start;">
+  <div class="box">A</div>
+  <div class="box">BB</div>
+  <div class="box">CCC</div>
+</div>
+
+
+<div class="demo-title">align-items: center (vertically centered)</div>
+<div class="container" style="align-items: center;">
+  <div class="box">A</div>
+  <div class="box">BB</div>
+  <div class="box">CCC</div>
+</div>
+
+
+<div class="demo-title">align-items: flex-end (items stick to bottom)</div>
+<div class="container" style="align-items: flex-end;">
+  <div class="box">A</div>
+  <div class="box">BB</div>
+  <div class="box">CCC</div>
+</div>
+
+
+<div class="demo-title">align-items: stretch (items fill full height)</div>
+<div class="container" style="align-items: stretch;">
+  <div class="box">A</div>
+  <div class="box">BB</div>
+  <div class="box">CCC</div>
+</div>
+
+
+<div class="demo-title">align-items: baseline (align text baseline)</div>
+<div class="container" style="align-items: baseline;">
+  <div class="box">A</div>
+  <div class="box big-text">BB</div>
+  <div class="box">CCC</div>
+</div>
+
+</body>
+</html>
