@@ -1,0 +1,17 @@
+.box1, .box2 {
+      display: inline-block;
+      width: 150px;
+      height: 80px;
+      line-height: 80px;
+      text-align: center;
+      color: white;
+      margin-right: 10px;
+      float: left;
+    }
+    .box1 { background: #ff6b6b; }
+    .box2 { background: #4dabf7; }
+
+    .text {
+      clear: both;
+      margin-top: 10px;
+    }
